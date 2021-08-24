@@ -10,6 +10,10 @@ body {
   background-color: black;
   margin: 0px 0 !important;
 }
+.navbar{
+  background-color: #fff !important;
+  border-bottom: 1px solid #ddd;
+}
 .navbar-toggler .bx{
 font-size: 53px;
 }
@@ -36,10 +40,7 @@ font-size: 53px;
 
 #bt-desc-text
 {
-word-spacing: -3px;
-}
-#bt-desc-btn{
-  cursor: pointer;
+  text-justify: inter-word;
 }
 
 .card-img-top{
@@ -108,6 +109,9 @@ color:white ;
   .social-links .linkedin {
     background: #0e76a8;
   
+  }
+  .social-links .youtube {
+    background: #e44545;
   }
   .social-links a:hover{
     color:#fff;
